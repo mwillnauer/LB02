@@ -51,7 +51,7 @@ header nav ul {
 header nav ul a {
     text-decoration: none;
     list-style: none;
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
     font-size: 20px;
     font-style: bold;
 }
@@ -63,7 +63,14 @@ main {
     padding: 60px;
     margin-bottom: 25px;
     background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
+}
+
+.phone {
+    display: block;
+    width: 32px;
+    height: auto;
 }
 
 #abstand br {
@@ -79,17 +86,6 @@ h1 {
 h2 {
     font-size: 35px;
     margin-bottom: 25px;
-}
-
-#musikschule {
-    text-align: right;
-    align-items: flex-end;
-    margin-left: 600px;
-}
-
-#musikschule img {
-    width: 42px;
-    height: auto;
 }
 
 #bands {
