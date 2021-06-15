@@ -102,7 +102,7 @@ h3 {
 }
 
 footer {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-right: 60px;   
     padding-left: 60px;
     padding-top: 15px;
@@ -110,13 +110,20 @@ footer {
     opacity: 0.7;
     margin: 0;
     text-align: right;
-    background-color: rgb(81, 99, 81);}
+    background-color: rgb(30, 32, 30);}
 
 #homebutton {
     width: 32px;
     height: auto; 
 }
 
-.btn-outline-dark {
-    align-items: flex-end;
+button.btn.btn-outline-dark {
+    color: #fff;
+    border-color: #ffffff;
+}
+
+button.btn-outline-dark:hover {
+    color: #fff;
+    background-color:rgba(111, 146, 111, 0.678);
+    border-color:rgba(111, 146, 111, 0.678);
 }
