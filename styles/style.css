@@ -21,7 +21,7 @@ header {
     margin: 0;
     padding: 0;
     display: block;  
-    background-image: url(fotos/gitarre_mia.jpg);
+    background-image: url(/fotos/gitarre_mia.jpg);
     background-size: cover;
     background-position-x: left;
     background-position-y: 500px;
