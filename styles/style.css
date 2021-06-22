@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
 
 p {
@@ -66,6 +65,7 @@ main {
     background-color: rgb(84, 118, 119);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
+    color: white;
 }
 
 .phone {
@@ -102,7 +102,7 @@ h3 {
 }
 
 footer {
-    color: rgb(255, 255, 255);
+    color: white;
     padding-right: 60px;   
     padding-left: 60px;
     padding-top: 15px;
@@ -110,7 +110,8 @@ footer {
     opacity: 0.7;
     margin: 0;
     text-align: right;
-    background-color: rgb(0, 0, 0);}
+    background-color: black;
+}
 
 #homebutton {
     width: 32px;
