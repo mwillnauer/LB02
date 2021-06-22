@@ -154,3 +154,8 @@ button.btn-outline-dark:hover {
 .box {
     float: left;
 }
+
+#carouselExampleControls_2 {
+    width: 50%;
+}
+
