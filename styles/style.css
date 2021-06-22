@@ -5,6 +5,10 @@
     
 }
 
+.box {
+    float: left;
+}
+
 p {
     font-size: 20px;
     margin-bottom: 25px;
@@ -47,6 +51,7 @@ header img {
 header nav {
     margin: 0;
     padding: 30px;  
+    padding-right: 60px;
     color: white; 
     background-color: rgba(69, 128, 133, 0.678);
 }
@@ -141,17 +146,13 @@ button.btn-outline-dark:hover {
     border-color:rgba(46, 86, 90, 0.678);
 }
 
-#carouselExampleControls {
-    width: 50%;
-    height: auto;
-}
-
 #svg_grafik {
     width: 48px;
     height: 48px;
 }
 
-.box {
+div.container {
+    width: 50%;
     float: left;
 }
 
