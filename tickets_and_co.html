@@ -38,33 +38,56 @@
 
 </head>
 <body>
-    <main>
+    <main class="konzert">
+        <div class="container">
         <h1>Jetzt Anmelden!</h1>
-        <p>Schau dir den neusten Clip an!</p>
+        <p>Reserviere dir jetzt dein Ticket!</p>
         <br><br>
-        <div id="video">
-            <video width="50%" controls>
-                <source src="video/Video1.mp4" type="video/mp4">
-            </video>
-        </div>
+
+<div class="anmeldeformular">
+          <div class="mb-3">
+            <label for="firstname" class="form-label">Vorname</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div><!--firstname atribut bootstrap-->
+         
+          <div class="mb-3">
+            <label for="lastname" class="form-label">Nachname</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+         </div><!--lastname atribut bootstrap-->
+
+         <div class="mb-3">
+            <label for="Adresse" class="form-label">Adressse</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+         </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">E-Mail</label> 
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div><!--E-Mail Bootstrap Atribut-->
+       </div>
+       <br><br>
+
+       <div class="col-auto">
+       <a href="bestaetigung.html"><button type="submit" class="btn btn-primary mb-3">Bestätigen</button></a>
+      </div>
+
+    </div>
     </main>
-    <div class="footer">
     <footer>
         <br>
         <br>
-                <dl>
-                    <dt>
-                        <a href="tel:+41798691268"><img class="phone" src="png/phone-call_negative.png" alt="Telefon"></a>
-                    </dt>
-                </dl>
+        <dl>
+            <dt>
+                <a href="tel:+41798691268"><img class="phone" src="png/phone-call_negative.png" alt="Telefon"></a>
+            </dt>
+        </dl>
         <br>
         <br>
-                <dl>   
-                    <dt>
-                        <a href= "mailto:mia4@gmx.ch"><img class="phone" src="png/email.png" alt="Mail"></a>
-                    </dt>
-                </dl>    
-            </footer>
-        </div>
+        <dl>
+            <dt>
+                <a href="mailto:mia4@gmx.ch"><img class="phone" src="png/email.png" alt="Mail"></a>
+            </dt>
+        </dl>
+    </footer>
 </body>
 </html>
